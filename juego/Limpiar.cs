@@ -22,6 +22,10 @@ namespace juego
                 {
                     ((ComboBox)combo).SelectedIndex = -1;
                 }
+                else if (combo is RichTextBox)
+                {
+                    ((RichTextBox)combo).Clear();
+                }
             }
             
             foreach (var combo1 in gb1.Controls)
@@ -34,6 +38,7 @@ namespace juego
                 {
                     ((ComboBox)combo1).SelectedIndex = -1;
                 }
+
             }
         }
     }

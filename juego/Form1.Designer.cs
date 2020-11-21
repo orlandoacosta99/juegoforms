@@ -46,6 +46,9 @@ namespace juego
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtDatosCodificados = new System.Windows.Forms.RichTextBox();
+            this.txtSinDecimal = new System.Windows.Forms.RichTextBox();
+            this.txtDecodificado = new System.Windows.Forms.RichTextBox();
             this.groupCodificador.SuspendLayout();
             this.groupDecodificador.SuspendLayout();
             this.SuspendLayout();
@@ -77,6 +80,8 @@ namespace juego
             // groupCodificador
             // 
             this.groupCodificador.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupCodificador.Controls.Add(this.txtSinDecimal);
+            this.groupCodificador.Controls.Add(this.txtDatosCodificados);
             this.groupCodificador.Controls.Add(this.btnCodificar);
             this.groupCodificador.Controls.Add(this.textCodificar);
             this.groupCodificador.Controls.Add(this.comboBoxCodificar);
@@ -95,6 +100,7 @@ namespace juego
             // btnCodificar
             // 
             this.btnCodificar.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btnCodificar.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCodificar.ForeColor = System.Drawing.Color.DarkRed;
             this.btnCodificar.Location = new System.Drawing.Point(130, 201);
             this.btnCodificar.Name = "btnCodificar";
@@ -191,6 +197,7 @@ namespace juego
             // groupDecodificador
             // 
             this.groupDecodificador.BackColor = System.Drawing.SystemColors.ControlLight;
+            this.groupDecodificador.Controls.Add(this.txtDecodificado);
             this.groupDecodificador.Controls.Add(this.btnDecodificar);
             this.groupDecodificador.Controls.Add(this.textDecodificar);
             this.groupDecodificador.Controls.Add(this.comboBoxDecodificar);
@@ -293,6 +300,33 @@ namespace juego
             this.label5.TabIndex = 0;
             this.label5.Text = "Códico Cifrado";
             // 
+            // txtDatosCodificados
+            // 
+            this.txtDatosCodificados.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDatosCodificados.Location = new System.Drawing.Point(35, 275);
+            this.txtDatosCodificados.Name = "txtDatosCodificados";
+            this.txtDatosCodificados.Size = new System.Drawing.Size(303, 65);
+            this.txtDatosCodificados.TabIndex = 7;
+            this.txtDatosCodificados.Text = "";
+            // 
+            // txtSinDecimal
+            // 
+            this.txtSinDecimal.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSinDecimal.Location = new System.Drawing.Point(33, 379);
+            this.txtSinDecimal.Name = "txtSinDecimal";
+            this.txtSinDecimal.Size = new System.Drawing.Size(303, 65);
+            this.txtSinDecimal.TabIndex = 8;
+            this.txtSinDecimal.Text = "";
+            // 
+            // txtDecodificado
+            // 
+            this.txtDecodificado.Font = new System.Drawing.Font("Verdana", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtDecodificado.Location = new System.Drawing.Point(36, 302);
+            this.txtDecodificado.Name = "txtDecodificado";
+            this.txtDecodificado.Size = new System.Drawing.Size(303, 65);
+            this.txtDecodificado.TabIndex = 9;
+            this.txtDecodificado.Text = "";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -331,6 +365,9 @@ namespace juego
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.RichTextBox txtSinDecimal;
+        private System.Windows.Forms.RichTextBox txtDatosCodificados;
+        private System.Windows.Forms.RichTextBox txtDecodificado;
     }
 }
 
