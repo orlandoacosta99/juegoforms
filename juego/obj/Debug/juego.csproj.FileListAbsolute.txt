@@ -1,0 +1,10 @@
+C:\Users\orlando\source\repos\juego\juego\bin\Debug\juego.exe.config
+C:\Users\orlando\source\repos\juego\juego\bin\Debug\juego.exe
+C:\Users\orlando\source\repos\juego\juego\bin\Debug\juego.pdb
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.csprojAssemblyReference.cache
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.Form1.resources
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.Properties.Resources.resources
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.csproj.GenerateResource.cache
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.csproj.CoreCompileInputs.cache
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.exe
+C:\Users\orlando\source\repos\juego\juego\obj\Debug\juego.pdb
